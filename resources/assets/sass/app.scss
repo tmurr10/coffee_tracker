@@ -1,0 +1,88 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+body {
+    font-weight: 700; 
+    background-color: #CFE2F3;
+    color: #000;
+}
+
+.navbar {
+    background-color: #CFE2F3;
+    border: 1px solid #000;
+    margin-bottom: 1px;
+
+    .container {
+        width: 100%;
+        #user_dropdown {
+            direction: rtl;
+            width: 65rem;
+            border-color: #000;
+            border-radius: 8px;
+            margin-top: .5rem;
+            font-size: 3rem;
+        }
+        .nav-button {
+            padding: .5rem 0 0 15rem;
+            text-decoration: underline;
+            font-size: 3rem;
+            font-weight: 400;
+            cursor: pointer;
+        }
+    }
+}
+
+.content {
+    min-height: 75rem;
+    border: 1px solid #000;
+    .page-heading {
+        margin: 6rem 0 1rem 0;
+        font-size: 3rem;
+    }
+}
+
+.container {
+    width: 99%;
+}
+
+label {
+    margin-left: 1.25rem;
+}
+
+.form-control {
+    border: 1px solid #000;
+    border-radius: 8px;
+    color: #000;
+}
+
+.black-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 1rem 4rem 1rem 4rem;
+    font-size: 3rem;
+    margin-top: 3rem;
+    float: right;
+    clear: both;
+}
+
+.page-heading {
+    font-size: 4rem;
+}
+
+.coffee-page {
+    .coffee-time {
+        font-size: 2.5rem;
+    }
+    .black-button {
+        float: none;
+    }
+}
